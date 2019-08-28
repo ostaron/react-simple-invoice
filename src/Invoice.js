@@ -123,7 +123,7 @@ export default function Invoice({ invoice, company, customer, lang, notes }) {
 	const totalAmount = items.reduce((sum, item) => sum + item.amount, 0);
 
 	return (
-		<Fragment>
+		<div>
 			<style dangerouslySetInnerHTML={{ __html: styles }} />
 			<div className="invoice-box">
 				<table cellPadding="0" cellSpacing="0">
@@ -233,7 +233,7 @@ export default function Invoice({ invoice, company, customer, lang, notes }) {
 					</div>
 				)}
 			</div>
-		</Fragment>
+		</div>
 	);
 }
 

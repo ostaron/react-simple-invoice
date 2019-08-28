@@ -36,7 +36,7 @@ function Invoice(_ref) {
 	}, 0);
 
 	return _react2.default.createElement(
-		Fragment,
+		"div",
 		null,
 		_react2.default.createElement("style", { dangerouslySetInnerHTML: { __html: styles } }),
 		_react2.default.createElement(
